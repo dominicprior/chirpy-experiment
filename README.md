@@ -12,6 +12,18 @@ Aha!  I am trying "bundle install", which seems to do something.  "jekyll -v" st
 
 This works too: "bundle exec jekyll serve".
 
+I changed the _config.yml baseurl to "/chirpy-experiment"
+
+I ran "bundle lock --add-platform x86_64-linux", and it said
+
+```
+Writing lockfile to /mnt/c/git/chirpy-experiment/Gemfile.lock
+Fetching gem metadata from https://rubygems.org/.........
+Resolving dependencies...
+```
+
+but didn't seem to edit Gemfile.lock (maybe because we are running Linux via WSL)
+
 # Chirpy Starter
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
