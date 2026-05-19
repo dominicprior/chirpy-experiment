@@ -1,3 +1,9 @@
+# My attempt at using Chirpy
+
+I followed "Option 1. Using the Starter" from https://chirpy.cotes.page/posts/getting-started/
+
+Then, going slightly off piste, I am going to try "Setting up Natively (Recommended for Unix-like OS)" via the Windows WSL Ubuntu.
+
 # Chirpy Starter
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
