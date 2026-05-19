@@ -22,7 +22,7 @@ Fetching gem metadata from https://rubygems.org/.........
 Resolving dependencies...
 ```
 
-but didn't seem to edit Gemfile.lock (maybe because we are running Linux via WSL)
+but it didn't seem to edit Gemfile.lock (maybe because we are running Linux via WSL).
 
 # Chirpy Starter
 
