@@ -4,6 +4,14 @@ I followed "Option 1. Using the Starter" from https://chirpy.cotes.page/posts/ge
 
 Then, going slightly off piste, I am going to try "Setting up Natively (Recommended for Unix-like OS)" via the Windows WSL Ubuntu.
 
+An Ubuntu-24.04 WSL shell says I have jekyll 4.4.1, but when I run "jekyll -v" in this folder, I get:
+
+/home/dominic/gems/gems/bundler-4.0.4/lib/bundler/resolver.rb:356:in `raise_not_found!': Could not find gem 'jekyll-theme-chirpy (~> 7.5)' in locally installed gems. (Bundler::GemNotFound)
+
+Aha!  I am trying "bundle install", which seems to do something.  "jekyll -v" still fails, but "bundle exec jekyll -v" is fine.
+
+This works too: "bundle exec jekyll serve".
+
 # Chirpy Starter
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
